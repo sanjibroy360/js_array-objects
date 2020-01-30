@@ -29,6 +29,6 @@ myPenguin.outfit.hat = "top hat";
 
 delete myPenguin.outfit.pants;
 
-for(key in myPenguin.outfit) {
+for(let key in myPenguin.outfit) {
     console.log(myPenguin.outfit[key]);
 }
