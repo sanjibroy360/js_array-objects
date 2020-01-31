@@ -67,9 +67,9 @@ console.log(arr == arr2);
 
 // Answer
 
-true
+false
 
-true
+false
 
 
 //What's the output
@@ -77,7 +77,7 @@ console.log([10] === [10]);
 
 // Answer
 
-true
+false
 
 
 // What's the output?
@@ -100,7 +100,7 @@ var personObj2 = personDetails(personObj1);
 console.log(personObj1); // -> ?  //Answer 
                                   {
                                     name: "Alex",
-                                    age:30,
+                                    age:25,
                                   }
 
 
