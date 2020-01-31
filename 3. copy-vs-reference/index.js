@@ -158,8 +158,8 @@ console.log(b);
 var a = [];
 var b = a;
 a.push(1);
-console.log(a); // [1]
-console.log(b); // [1]
+console.log(a);
+console.log(b);
 console.log(a === b);
 
 //Answer 
@@ -184,4 +184,4 @@ var clone = {};
 
 //Answer
 
-clone = person;
+clone = Object.assign(clone,person);
