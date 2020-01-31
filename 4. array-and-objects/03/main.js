@@ -23,8 +23,6 @@ console.log(penguinHatType);
 
 myPenguin.outfit.accessory = "pocket watch";
 
-delete myPenguin.hat; 
-
 myPenguin.outfit.hat = "top hat";
 
 delete myPenguin.outfit.pants;
