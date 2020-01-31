@@ -19,7 +19,7 @@ user[batch] = 10 ;
 
 // 5. Using the alert function alert the value of the key added above.
 
-alert( user.myBatch );
+alert( user["myBatch"] );
 
 // 6. Add a key of `42` to the object with a value of `The answer to the meaning of life 🧸`.
 
