@@ -1,19 +1,31 @@
-let penguin = {};
+let myPenguin = {
+    name : "Whiteblack",
+    origin : "Whiteblack the Penguin Sees the World",
+    author : "H.A Rey and Margret Rey",
+    notes : "Children's book about a travelling penguin",
+    canFly: false,
+    sayHello: function () {
+        console.log("Hi there!");
+      }
+    
+};
 
-penguin.favoriteFoods = ["Krill", "cod", "lantern fish", "Squid"];
 
-console.log(penguin.favoriteFoods[1]);
 
-let firstFavFood = penguin.favoriteFoods[0];
+myPenguin.favoriteFoods = ["Krill", "lantern fish", "Squid"];
 
-penguin.favoriteFoods.push("sardines");
+console.log(myPenguin.favoriteFoods[1]);
 
-console.log(penguin.favoriteFoods.length);
+let firstFavFood = myPenguin.favoriteFoods[0];
 
-penguin.favoriteFoods[penguin.favoriteFoods.length - 1] = "pineapples";
+myPenguin.favoriteFoods.push("sardines");
 
-lastFavFood = penguin.favoriteFoods[ (penguin.favoriteFoods.length - 1) ];
+console.log(myPenguin.favoriteFoods.length);
 
-for(let i = 0; i <= (penguin.favoriteFoods.length - 1); i++) {
-    console.log(penguin.favoriteFoods[i]);
+myPenguin.favoriteFoods[myPenguin.favoriteFoods.length - 1] = "pineapples";
+
+lastFavFood = myPenguin.favoriteFoods[ (myPenguin.favoriteFoods.length - 1) ];
+
+for(let i = 0; i <= (myPenguin.favoriteFoods.length - 1); i++) {
+    console.log(myPenguin.favoriteFoods[i]);
 }
